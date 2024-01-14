@@ -1,0 +1,62 @@
+#Heading2 {
+      /*text-align: center;*/
+      height: 50px;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      /*margin-top: 10px;*/
+  }
+  
+  #mainBody2 {
+      min-height: 85vh;
+  }
+  
+  .main {
+      text-align: center;
+  }
+  
+  #InpBox {
+      font-size: 30px;
+      font-weight: 600;
+      width: 30%;
+      height: 50px;
+      background: transparent;
+      border: none;
+      outline: none;
+      border-bottom: 5px solid rgb(105, 105, 141);
+  }
+  
+  #Dbutton {
+      margin-left: 15px;
+      font-family: cursive;
+      font-weight: 500;
+  }
+  
+  #OutputHeading {
+      margin-left: 15%;
+      margin-top: 15px;
+      font-size: 25px;
+      font-weight: 500;
+      font-style: italic;
+      font-family: 'Times New Roman', Times, serif;
+  }
+  
+  #Output {
+      margin: 10px;;
+      width: 100%;
+      height: 45vh;
+      border: 2px solid #3b406e;
+      border-radius: 10px;
+  }
+  
+  .result {
+      padding: 30px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 25px;
+      height: 44vh;
+      overflow: scroll;
+  }
+  
+  .result .pos {
+      font-style: italic;
+  }

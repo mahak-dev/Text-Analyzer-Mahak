@@ -1,9 +1,13 @@
 import './App.css';
-import Navbar from './components/navbar';
+import WordDetails from './worddetails';
+
 
 function App(root) {
   return (
-    <Navbar />
+    <WordDetails />
+    
   );
 }
 export default App;
+
+

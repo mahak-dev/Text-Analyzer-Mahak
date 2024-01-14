@@ -1,9 +1,11 @@
+
 import { compose } from 'ramda';
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import 'whatwg-fetch';
-
 import './style.css';
+import WordDetails from './worddetails';
+
 
 class App extends Component{
   state = {
@@ -69,7 +71,7 @@ class App extends Component{
     return(
       
       <div>
-        <nav class='nav'> 
+        <nav class='nav'>
       <h1 className='heading'><a href='#'>Text Analyzer</a></h1>
       <ul>
         <li><a href='#'>Home</a></li>
@@ -88,7 +90,9 @@ class App extends Component{
         <strong>Space Count:</strong>{this.state.spaceCount}<br/>
         <strong>Punctuation Count:</strong>{this.state.punctuationCount}<br/>
         </p>
+        
     </div>
+    <WordDetails word={this.state.text} />
     <footer>
       <div className='container'>
       <p>Created by <a href='https://github.com/mahak-dev' target='_blank'>Mahak Gupta</a></p></div>
@@ -98,3 +102,4 @@ class App extends Component{
   }
 }
 render(<App />, document.getElementById('root'));
+
