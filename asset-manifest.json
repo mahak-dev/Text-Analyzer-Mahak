@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Text-Analyzer-Mahak/static/css/main.ffe2beee.css",
+    "main.js": "/Text-Analyzer-Mahak/static/js/main.6ae2a391.js",
+    "index.html": "/Text-Analyzer-Mahak/index.html",
+    "main.ffe2beee.css.map": "/Text-Analyzer-Mahak/static/css/main.ffe2beee.css.map",
+    "main.6ae2a391.js.map": "/Text-Analyzer-Mahak/static/js/main.6ae2a391.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ffe2beee.css",
+    "static/js/main.6ae2a391.js"
+  ]
+}
