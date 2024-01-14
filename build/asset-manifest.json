@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/text-analyser-application/static/css/main.ffe2beee.css",
+    "main.js": "/text-analyser-application/static/js/main.6ae2a391.js",
+    "index.html": "/text-analyser-application/index.html",
+    "main.ffe2beee.css.map": "/text-analyser-application/static/css/main.ffe2beee.css.map",
+    "main.6ae2a391.js.map": "/text-analyser-application/static/js/main.6ae2a391.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ffe2beee.css",
+    "static/js/main.6ae2a391.js"
+  ]
+}
